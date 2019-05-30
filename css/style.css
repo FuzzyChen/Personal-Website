@@ -1,0 +1,33 @@
+body {
+  background-color: #f6f6f6;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+}
+
+.top-container {
+  padding: 4%;
+}
+
+.middle-container {
+  padding: 2%;
+}
+
+.bottom-container {
+  padding: 2%;
+}
+
+img {
+  display: inline-block;
+}
+
+#intro {
+  display: inline-block;
+  position:relative;
+  left: 20%;
+  width: 60%;
+  top:50px;
+}
