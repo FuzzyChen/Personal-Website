@@ -1,13 +1,20 @@
 body {
   background-color: #f6f6f6;
   margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
   margin: 0 auto 0 auto;
+  font-family: 'Sacramento', cursive;
 }
 
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  line-height: 2
+}
 .top-container {
   padding: 4%;
 }
