@@ -54,14 +54,20 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item"><a class="nav-link" href="">About Me</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Experience</a></li>
-          <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
         </ul>
       </div>
     </nav>
 
-    <div class="top-container row">
+    <div class="top-container row" id="about">
       <div class="col-lg-6" style="text-align:center;">
         <img
           class="photo"
@@ -85,7 +91,7 @@
       </div>
     </div>
 
-    <div class="middle-container">
+    <div class="middle-container" id="experience">
       <h2>Data Experience</h2>
       <table cellspacing="10">
         <tr>
@@ -180,7 +186,7 @@
       </table>
     </div>
 
-    <div class="bottom-container">
+    <div class="bottom-container" id="skills">
       <h2>Skills and Languages</h2>
       <table cellspacing="10">
         <tr>
@@ -204,23 +210,25 @@
         </tr>
       </table>
     </div>
-    <div class="contact">
-      <h3>
-        <a href="mailto:mchen177@fordham.edu"
-          ><button class="btn btn-outline-dark" type="button" name="button">
-            Contact me
-          </button></a
-        >
-        mchen177@fordham.edu
-      </h3>
+    <section id="contact">
+      <div class="contact">
+        <h3>
+          <a href="mailto:mchen177@fordham.edu"
+            ><button class="btn btn-outline-dark" type="button" name="button">
+              Contact me
+            </button></a
+          >
+          mchen177@fordham.edu
+        </h3>
 
-      <a href="https://github.com/FuzzyChen"
-        ><i class="fab fa-github-square fa-5x"></i
-      ></a>
-      <span style="color: black;"
-        ><a href="https://www.linkedin.com/in/ming-chen-a491b9170/">
-          <i class="fab fa-linkedin fa-5x"></i></a
-      ></span>
-    </div>
+        <a href="https://github.com/FuzzyChen"
+          ><i class="fab fa-github-square fa-5x"></i
+        ></a>
+        <span style="color: black;"
+          ><a href="https://www.linkedin.com/in/ming-chen-a491b9170/">
+            <i class="fab fa-linkedin fa-5x"></i></a
+        ></span>
+      </div>
+    </section>
   </body>
 </html>
