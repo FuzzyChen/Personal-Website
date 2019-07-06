@@ -1,6 +1,4 @@
-nav {
-  position: absolute;
-}
+
 body {
   background-color: #f6f6f6;
   margin: 0;
@@ -20,18 +18,22 @@ p {
 }
 .top-container {
   padding: 4%;
+  padding-top:100px;
 }
 
 .middle-container {
   padding: 2%;
+  padding-top:100px;
 }
 
 .bottom-container {
   padding: 2%;
+  padding-top:100px;
 }
 
 .contact {
   padding: 2%;
+  padding-top:100px;
   text-align: center;
 }
 
@@ -43,8 +45,5 @@ img {
   margin-top: 50px;
 }
 .intro{
-  text-align: center;
-}
-.game{
   text-align: center;
 }
