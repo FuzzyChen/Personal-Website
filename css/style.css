@@ -17,22 +17,22 @@ p {
   line-height: 2
 }
 .top-container {
-  padding: 4%;
+  padding: 8%;
   padding-top:100px;
 }
 
 .middle-container {
-  padding: 2%;
+  padding: 10%;
   padding-top:100px;
 }
 
 .bottom-container {
-  padding: 2%;
+  padding: 10%;
   padding-top:100px;
 }
 
 .contact {
-  padding: 2%;
+  padding: 10%;
   padding-top:100px;
   text-align: center;
 }
