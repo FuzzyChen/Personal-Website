@@ -1,21 +1,52 @@
-
 body {
   background-color: #f6f6f6;
-  margin: 0;
+
   font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-  margin: 0 auto 0 auto;
   font-family: 'Sacramento', cursive;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
 }
+
 p {
   line-height: 2
 }
+
+.news {
+  border-style:solid;
+  border-width:3px;
+  display: flex;
+  flex-direction: row;
+}
+
+.news > div {
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+}
+
+
+.flex-container {
+  display: flex;
+  background-color: antiquewhite;
+
+
+}
+
+
+.flex-container > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
 .top-container {
   padding: 8%;
   padding-top:100px;
@@ -37,13 +68,7 @@ p {
   text-align: center;
 }
 
-img {
-  display: inline-block;
-}
 
-.photo {
-  margin-top: 50px;
-}
 .intro{
   text-align: center;
 }
